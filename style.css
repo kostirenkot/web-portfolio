@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0fff0; /* блідо-зелений фон */
+    color: #333; /* темно-сірий текст для контрасту */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Заголовки */
+h1, h2 {
+    color: #2e8b57; /* темно-зелений */
+    text-align: center;
+}
+
+/* Параграфи */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Список проєктів */
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+/* Форми (якщо будуть додані пізніше) */
+input, button {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #2e8b57;
+    border-radius: 5px;
+}
+
+/* Кнопки */
+button {
+    background-color: #98fb98; /* блідо-зелений */
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #90ee90; /* трохи темніший зелений при наведенні */
+}
+
+/* Блок “Мої проєкти” */
+h2 + ul {
+    background-color: #f5fff5; /* дуже світлий зелений фон */
+    padding: 10px;
+    border-radius: 8px;
+}
